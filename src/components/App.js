@@ -10,6 +10,10 @@ const App = () => {
     </p>
   );
 };
+ReactDOM.render(     
+  <App />,
+  document.getElementById('root')        
+);
 
 //! Needed so that `index.js` can do `import App from './App.js'`
 export default App;
