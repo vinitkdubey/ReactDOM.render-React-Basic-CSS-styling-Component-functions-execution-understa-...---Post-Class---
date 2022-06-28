@@ -1,15 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import './index.css';
-import App from "./components/App";
 
-const App = () => {
-  return (
-    <div>  <App/></div>
-    )
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.js'
 
-ReactDOM.render(<App />, document.getElementById("root"));
-
-
-
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
